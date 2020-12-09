@@ -310,7 +310,7 @@ h6 {
 }
 
 .project1::after {
-      content: "gerenciamento hosptalar.";
+      content: "gerenciamento hospitalar.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
