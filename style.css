@@ -304,8 +304,9 @@ h6 {
 }
 
 .project1 {
-      background: url('./image/projeto1.PNG') no-repeat 30% 50%;
+      background: url('./image/projeto1.PNG') no-repeat 40% 50%;
       background-size: cover;
+      right: 3%;
 }
 
 .project1::after {
@@ -315,20 +316,20 @@ h6 {
       position: relative;
       color: #fff;
       display: block;
-      top: 8%;
-      left: -85%;
+      top: 10%;
+      left: -90%;
       right: 0;
       bottom: 0;
 }
 
 .project2 {
-      background: url('./image/projeto2.PNG') no-repeat 55% 50%;
+      background: url('./image/projeto2.jpg') no-repeat 50% 50%;
       background-size: cover;
-      right: 9%;
+      right: 3%;
 }
 
 .project2::after {
-      content: "pomodoro.";
+      content: "mini max.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -340,8 +341,8 @@ h6 {
       bottom: 0;
 }
 
-.project3 {
-      background: url(https://images.unsplash.com/photo-1482501157762-56897a411e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80) no-repeat 50% 50%;
+/* .project3 {
+      background: url() no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -373,8 +374,10 @@ h6 {
       top: 10%;
       left: 90%;
       right: 0;
-      bottom: 0;
+      bottom: 0; 
 }
+*/
+
 
 @media(max-width: 768px) {
       .project {
@@ -610,3 +613,27 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+.imageGH1 {
+      background: url('./image/imageGH1.PNG') no-repeat 50% 50%;
+      background-size: 100%;
+      border-radius: 20%;
+}
+
+.imageGH2 {
+      background: url('./image/imageGH2.PNG') no-repeat 50% 50%;
+      background-size: 100%;
+      border-radius: 20%;
+}
+
+
+/*--------------- project2 page --------------- */
+
+.imageJV1 {
+      background: url('./image/imageJV1.PNG') no-repeat 50% 50%;
+      margin-left: 100px;
+      background-size: 100%;
+      border-radius: 5%;  
+      
+}
+
