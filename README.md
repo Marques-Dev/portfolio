@@ -1,5 +1,5 @@
 # portfolio-main
-Meu portifólio.
+Meu portifólio minimalista.
 
 
 
